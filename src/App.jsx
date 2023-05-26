@@ -6,6 +6,7 @@ import FooterComponents from './Components/FooterComponents';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import CardPages from './pages/CardPages';
+import GalleryPage from './pages/GalleryPage';
 
 function App() {
   return <div>
@@ -16,6 +17,7 @@ function App() {
       <Route path='/card' Component={CardPages} />
     </Routes>
     <CardPages />
+    <GalleryPage />
     <FooterComponents />
   </div>;
 }

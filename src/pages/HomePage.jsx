@@ -10,9 +10,14 @@ const HomePage = () => {
                     </video>
                     <div className="overlay"></div>
                     <div className="welcome-section">
-                        <h1>Selamat Datang di Website Travel</h1>
-                        <p>Temukan destinasi impian Anda dan nikmati pengalaman perjalanan yang tak terlupakan.</p>
-                        <button className="explore-button">Jelajahi Lebih Lanjut</button>
+                        <h1 >Indonesia Travel</h1>
+                        <h2>Best Destination</h2>
+                        <div className="button-wrapper">
+                            <div className="text-divider ">
+                                <span className="left-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, asperiores. Rerum beatae harum eaque esse.</span>
+                                <span className="right-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nam inventore commodi itaque a molestias?</span>
+                            </div>
+                        </div>
                     </div>
                     <div className="homepage">
                         {/* Komponen lain dalam halaman */}
@@ -20,10 +25,7 @@ const HomePage = () => {
                 </div>
                 {/* Konten lainnya dalam header */}
             </header>
-
         </div>
-
-
     );
 };
 

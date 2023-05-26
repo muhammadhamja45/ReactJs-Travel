@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Form, FormControl, Button, Row, Col } from 'react-bootstrap';
 import { navLinks } from '../data/index';
 import { NavLink } from 'react-router-dom';
 
@@ -31,22 +31,23 @@ const NavbarComponents = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mx-auto">
+                        <Nav className="mr-auto">
                             {navLinks.map((link) => (
-                                <div className="nav-link" key={link.id}>
-                                    <NavLink
-                                        className="text-white"
-                                        to={link.path}
-                                        activeClassName="active"
-                                    >
-                                        {link.text}
-                                    </NavLink>
-                                </div>
+                                <Nav.Link as={NavLink} to={link.path} key={link.id} className="text-white">
+                                    {link.text}
+                                </Nav.Link>
                             ))}
                         </Nav>
-                        <div>
-                            <button className="join-button">Join</button>
-                        </div>
+                        <Form inline>
+                            <Row className="align-items-center">
+                                <Col>
+                                    <FormControl type="text" placeholder="Search Destination" className="mr-sm-2" />
+                                </Col>
+                                <Col xs="auto">
+                                    <Button className='mt-2' variant="outline-light">Search</Button>
+                                </Col>
+                            </Row>
+                        </Form>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
