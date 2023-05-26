@@ -1,8 +1,8 @@
 
-const footerComponents = () => {
+const FooterComponents = () => {
     return (
-        <div>footerComponents</div>
+        <div>FooterComponents</div>
     )
 }
 
-export default footerComponents
+export default FooterComponents
