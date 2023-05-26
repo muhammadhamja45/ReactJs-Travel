@@ -22,9 +22,46 @@ export const navLinks = [{
         path: "card",
         text: "Card",
     },
-
-
 ];
+
+export const destinations = [{
+        id: 1,
+        image: KelasImage1,
+        title: 'Destinasi 1',
+        description: 'Deskripsi destinasi 1',
+    },
+    {
+        id: 2,
+        image: KelasImage2,
+        title: 'Destinasi 2',
+        description: 'Deskripsi destinasi 2',
+    },
+    {
+        id: 3,
+        image: KelasImage3,
+        title: 'Destinasi 3',
+        description: 'Deskripsi destinasi 3',
+    },
+    {
+        id: 4,
+        image: KelasImage4,
+        title: 'Destinasi 4',
+        description: 'Deskripsi destinasi 4',
+    },
+    {
+        id: 5,
+        image: KelasImage5,
+        title: 'Destinasi 5',
+        description: 'Deskripsi destinasi 5',
+    },
+    {
+        id: 6,
+        image: KelasImage6,
+        title: 'Destinasi 6',
+        description: 'Deskripsi destinasi 6',
+    },
+];
+
 
 export const semuaKelas = [{
         id: 1,

@@ -15,6 +15,7 @@ function App() {
       <Route path='/about' Component={AboutPage} />
       <Route path='/card' Component={CardPages} />
     </Routes>
+    <CardPages />
     <FooterComponents />
   </div>;
 }
