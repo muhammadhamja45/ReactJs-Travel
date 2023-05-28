@@ -52,7 +52,7 @@ const NavbarComponents = () => {
                             ))}
                         </Nav>
                         <Form inline className={isMobile ? 'mt-3 mt-lg-0' : ''}>
-                            <Row className="align-items-center">
+                            <Row className="align-items-center mx-5">
                                 <Col>
                                     <FormControl type="text" placeholder="Search Destination" className="mr-sm-2" />
                                 </Col>
@@ -60,7 +60,7 @@ const NavbarComponents = () => {
                                     <Button className="mt-2" variant="outline-light">Search</Button>
                                 </Col>
                                 {isMobile ? (
-                                    <Col xs="auto">
+                                    <Col xs="auto" className=''>
                                         <Button className="mt-2 ml-2" variant="outline-light">Login/Signup</Button>
                                     </Col>
                                 ) : null}

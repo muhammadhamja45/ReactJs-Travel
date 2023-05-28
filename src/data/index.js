@@ -5,6 +5,10 @@ import KelasImage4 from "../assets/images/card/kelas-4.jpg";
 import KelasImage5 from "../assets/images/card/kelas-5.jpg";
 import KelasImage6 from "../assets/images/card/kelas-6.jpg";
 
+import Service1 from "../assets/service/service1.png";
+import Service2 from "../assets/service/service2.png";
+import Service3 from "../assets/service/service3.png";
+import Service4 from "../assets/service/service4.png";
 
 
 export const navLinks = [{
@@ -15,12 +19,27 @@ export const navLinks = [{
     {
         id: 2,
         path: "about",
-        text: "About",
+        text: "Galerry",
     },
     {
         id: 3,
         path: "card",
-        text: "Card",
+        text: "Destinations",
+    },
+    {
+        id: 3,
+        path: "card",
+        text: "Services",
+    },
+    {
+        id: 3,
+        path: "card",
+        text: "Contact",
+    },
+    {
+        id: 3,
+        path: "card",
+        text: "About Us",
     },
 ];
 
@@ -60,6 +79,60 @@ export const destinations = [{
         title: 'Destinasi 6',
         description: 'Deskripsi destinasi 6',
     },
+];
+
+export const services = [{
+        id: 1,
+        image: Service1,
+        title: 'Passport & Visa',
+        description: 'Jangan biarkan perjalanan anda terhambat karena pemrosesan dokumen yang menyita waktu. Kami menyediakan',
+    },
+    {
+        id: 2,
+        image: Service2,
+        title: 'Insurance',
+        description: 'Lindungi perjalanan anda dari kejadian-kejadian tak diinginkan, supaya anda tidak memiliki kekuatiran selama liburan',
+    },
+    {
+        id: 3,
+        image: Service3,
+        title: 'Car Hire',
+        description: 'Demi menjelajah setiap pelosok, kami memiliki layanan penyewaan mobil di setiap destinasi anda, sehingga anda',
+    },
+    {
+        id: 4,
+        image: Service4,
+        title: 'Ticket & Attraction',
+        description: 'Tidak perlu lagi membayangkan antrean panjang untuk masuk ke taman hiburan dan berbagai atraksi pada setiap',
+    },
+
+];
+
+export const whyPage = [{
+        id: 1,
+        image: KelasImage1,
+        title: 'Destinasi 1',
+        description: ' is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
+    },
+    {
+        id: 2,
+        image: KelasImage2,
+        title: 'Destinasi 2',
+        description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
+    },
+    {
+        id: 3,
+        image: KelasImage3,
+        title: 'Destinasi 3',
+        description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
+    },
+    {
+        id: 4,
+        image: KelasImage4,
+        title: 'Destinasi 4',
+        description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
+    },
+
 ];
 
 
