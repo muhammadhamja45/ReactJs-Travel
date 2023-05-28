@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavbarComponents = () => {
     const [navbarBg, setNavbarBg] = useState('');
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
         const changeNavbarBg = () => {
@@ -15,16 +16,28 @@ const NavbarComponents = () => {
             }
         };
 
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setIsMobile(true);
+                setNavbarBg('responsive');
+            } else {
+                setIsMobile(false);
+                setNavbarBg('');
+            }
+        };
+
         window.addEventListener('scroll', changeNavbarBg);
+        window.addEventListener('resize', handleResize);
 
         return () => {
             window.removeEventListener('scroll', changeNavbarBg);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
 
     return (
         <div>
-            <Navbar bg="" expand="lg" className={`fixed-top ${navbarBg}`}>
+            <Navbar bg={navbarBg} expand="lg" className={`fixed-top ${navbarBg}`}>
                 <Container>
                     <Navbar.Brand href="#home" className="text-white">
                         Travel
@@ -38,16 +51,24 @@ const NavbarComponents = () => {
                                 </Nav.Link>
                             ))}
                         </Nav>
-                        <Form inline>
+                        <Form inline className={isMobile ? 'mt-3 mt-lg-0' : ''}>
                             <Row className="align-items-center">
                                 <Col>
                                     <FormControl type="text" placeholder="Search Destination" className="mr-sm-2" />
                                 </Col>
                                 <Col xs="auto">
-                                    <Button className='mt-2' variant="outline-light">Search</Button>
+                                    <Button className="mt-2" variant="outline-light">Search</Button>
                                 </Col>
+                                {isMobile ? (
+                                    <Col xs="auto">
+                                        <Button className="mt-2 ml-2" variant="outline-light">Login/Signup</Button>
+                                    </Col>
+                                ) : null}
                             </Row>
                         </Form>
+                        {!isMobile ? (
+                            <Button className="mt-2 ml-2" variant="outline-light">Login/Signup</Button>
+                        ) : null}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
