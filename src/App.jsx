@@ -10,6 +10,7 @@ import GalleryPage from './pages/GalleryPage';
 import WhyPage from './pages/WhyPage';
 import ServicePage from './pages/ServicePage';
 import KritikSaran from './pages/KritikSaran';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return <div>
@@ -22,6 +23,7 @@ function App() {
     <CardPages />
     <WhyPage />
     <GalleryPage />
+    <AboutUs />
     <ServicePage />
     <KritikSaran />
     <FooterComponents />

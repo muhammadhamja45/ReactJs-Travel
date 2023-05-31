@@ -1,3 +1,5 @@
+// NavbarComponents.js
+
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav, Form, FormControl, Button, Row, Col } from 'react-bootstrap';
 import { navLinks } from '../data/index';
@@ -46,7 +48,13 @@ const NavbarComponents = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             {navLinks.map((link) => (
-                                <Nav.Link as={NavLink} to={link.path} key={link.id} className="text-white">
+                                <Nav.Link
+                                    as={NavLink}
+                                    to={link.path}
+                                    key={link.id}
+                                    className="text-white"
+                                    activeClassName="active-link" // Tambahkan kelas untuk efek hover
+                                >
                                     {link.text}
                                 </Nav.Link>
                             ))}

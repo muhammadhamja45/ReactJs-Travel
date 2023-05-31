@@ -5,6 +5,12 @@ import KelasImage4 from "../assets/images/card/kelas-4.jpg";
 import KelasImage5 from "../assets/images/card/kelas-5.jpg";
 import KelasImage6 from "../assets/images/card/kelas-6.jpg";
 
+import travel1 from "../assets/animate/travel1.jpg";
+import travel2 from "../assets/animate/travel2.jpg";
+import travel3 from "../assets/animate/travel3.jpg";
+import travel4 from "../assets/animate/travel4.jpg";
+
+
 import Service1 from "../assets/service/service1.png";
 import Service2 from "../assets/service/service2.png";
 import Service3 from "../assets/service/service3.png";
@@ -110,25 +116,25 @@ export const services = [{
 
 export const whyPage = [{
         id: 1,
-        image: KelasImage1,
+        image: travel1,
         title: 'Good Service',
         description: ' is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 2,
-        image: KelasImage2,
+        image: travel2,
         title: 'Best View',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 3,
-        image: KelasImage3,
+        image: travel3,
         title: 'Sea',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 4,
-        image: KelasImage4,
+        image: travel4,
         title: 'Good Destination',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },

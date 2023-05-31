@@ -2,6 +2,7 @@ import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Gallery1 from "../assets/animate/ss3.jpg";
 
 const FeedbackForm = () => {
     useEffect(() => {
@@ -19,8 +20,8 @@ const FeedbackForm = () => {
     };
 
     return (
-        <Container className="feedback-container justify-content-center my-5" style={{ maxWidth: "900px" }}>
-            <Row className="justify-content-flex-start">
+        <Container className="feedback-container my-5" style={{ maxWidth: "1200px" }}>
+            <Row>
                 <Col sm={8} md={6} className="text-left feedback-form" data-aos="fade-up">
                     <h2>Kritik dan Saran</h2>
                     <Form onSubmit={handleSubmit}>
@@ -42,6 +43,9 @@ const FeedbackForm = () => {
                             </Button>
                         </div>
                     </Form>
+                </Col>
+                <Col sm={4} md={6} className="text-center my-2" data-aos="fade-up">
+                    <img src={Gallery1} alt="Gambar" className="img-fluid rounded" style={{ width: '600px', height: '500px' }} />
                 </Col>
             </Row>
         </Container>

@@ -21,7 +21,7 @@ const ServicePage = () => {
                                     variant="top"
                                     src={service.image}
                                     alt={service.title}
-                                    className="center-image"
+                                    className="center-image img-fluid"
                                     style={{ maxWidth: '30%', height: 'auto' }}
                                 />
                             </div>

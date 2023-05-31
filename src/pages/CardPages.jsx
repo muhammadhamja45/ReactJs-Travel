@@ -35,7 +35,7 @@ const CardPages = () => {
                         <SwiperSlide key={destination.id} data-aos="fade-up" data-aos-duration="1000">
                             <div className="swiper-card">
                                 <img
-                                    className="swiper-card-image"
+                                    className="swiper-card-image img-fluid"
                                     src={destination.image}
                                     alt={destination.title}
                                     style={{ width: '150%', height: '600px', objectFit: 'cover' }}
