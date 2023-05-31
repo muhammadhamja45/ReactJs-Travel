@@ -111,25 +111,25 @@ export const services = [{
 export const whyPage = [{
         id: 1,
         image: KelasImage1,
-        title: 'Destinasi 1',
+        title: 'Good Service',
         description: ' is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 2,
         image: KelasImage2,
-        title: 'Destinasi 2',
+        title: 'Best View',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 3,
         image: KelasImage3,
-        title: 'Destinasi 3',
+        title: 'Sea',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
     {
         id: 4,
         image: KelasImage4,
-        title: 'Destinasi 4',
+        title: 'Good Destination',
         description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in',
     },
 

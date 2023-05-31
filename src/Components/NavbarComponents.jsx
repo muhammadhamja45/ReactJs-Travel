@@ -39,8 +39,8 @@ const NavbarComponents = () => {
         <div>
             <Navbar bg={navbarBg} expand="lg" className={`fixed-top ${navbarBg}`}>
                 <Container>
-                    <Navbar.Brand href="#home" className="text-white">
-                        Travel
+                    <Navbar.Brand href="#home" className="text-white fw-bold text-lg">
+                        Travel.ink
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
                     <Navbar.Collapse id="basic-navbar-nav">
